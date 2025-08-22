@@ -5,10 +5,10 @@ import { $fetch, setup } from '@nuxt/test-utils'
 describe('ssr', async () => {
   await setup({
     rootDir: fileURLToPath(new URL('../docs', import.meta.url)),
-    setupTimeout: 1200000,
+    setupTimeout: 120000,
   })
 
-  it('renders the index page', { timeout: 1200000 }, async () => {
+  it('renders the index page', { timeout: 120000 }, async () => {
     // Get response to a server-rendered page with `$fetch`.
     const html = await $fetch('/')
     console.log(html)

@@ -8,5 +8,7 @@ export default defineVitestConfig({
       ignoreSourceErrors: true,
     },
     include: ['test/*.spec.ts'],
+    testTimeout: 120000,
+    hookTimeout: 120000,
   },
 })
