@@ -11,7 +11,7 @@ const config = {
     '@chromatic-com/storybook',
   ],
   framework: {
-    name: '@storybook-vue/nuxt',
+    name: 's8n11c-storybook-vue-nuxt',
     options: {},
   },
   docs: {

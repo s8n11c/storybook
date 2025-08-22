@@ -183,7 +183,7 @@ async function bumpVersion() {
   const bumpType = (await determineBumpType()) || 'patch'
 
   const newVersion = inc(
-    workspace.find('@nuxtjs/storybook').data.version,
+    workspace.find('s8n11c-nuxtjs-storybook').data.version,
     bumpType,
   )
   if (!newVersion) {

@@ -14,7 +14,7 @@ Update your `nuxt.config`:
 
 ```ts
   modules: [
-    '@nuxtjs/storybook',
+    's8n11c-nuxtjs-storybook',
   ],
   storybook: {
     url: 'http://localhost:6006',

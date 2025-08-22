@@ -4,7 +4,7 @@ import { logger } from './logger'
 
 import { setupStorybook } from './storybook'
 
-export type * from '@storybook-vue/nuxt'
+export type * from 's8n11c-storybook-vue-nuxt'
 
 export interface ModuleOptions {
   /**
@@ -60,7 +60,7 @@ export interface ModuleOptions {
 
 export default defineNuxtModule<ModuleOptions>({
   meta: {
-    name: '@nuxtjs/storybook',
+    name: 's8n11c-nuxtjs-storybook',
     configKey: 'storybook',
     compatibility: {
       nuxt: '>=3.0.0',

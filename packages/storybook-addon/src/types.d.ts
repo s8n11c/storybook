@@ -8,7 +8,7 @@ import type {
 declare let STORYBOOK_VUE_GLOBAL_PLUGINS: string[]
 declare let STORYBOOK_VUE_GLOBAL_MIXINS: string[]
 
-type FrameworkName = '@storybook-vue/nuxt'
+type FrameworkName = 's8n11c-storybook-vue-nuxt'
 type BuilderName = '@storybook/builder-vite'
 
 type BuilderOptions = BuilderOptionsVite & {

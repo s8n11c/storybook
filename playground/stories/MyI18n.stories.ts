@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from '@nuxtjs/storybook'
+import type { Meta, StoryObj } from 's8n11c-nuxtjs-storybook'
 
 import MyComponent from './MyI18n.vue'
 

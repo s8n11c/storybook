@@ -173,7 +173,7 @@
 
 ### 🚀 Enhancements
 
-- Export types also from `@nuxtjs/storybook` ([#749](https://github.com/nuxt-modules/storybook/pull/749))
+- Export types also from `s8n11c-nuxtjs-storybook` ([#749](https://github.com/nuxt-modules/storybook/pull/749))
 
 ### 🩹 Fixes
 
@@ -305,7 +305,7 @@
 - Change builddir ([b2e6dfd](https://github.com/nuxt-modules/storybook/commit/b2e6dfd))
 - Fix TypeError when reading `__STORYBOOK__` property of undefined ([#539](https://github.com/nuxt-modules/storybook/pull/539))
 - Relax version constraints of dependencies ([#438](https://github.com/nuxt-modules/storybook/pull/438))
-- **deps:** Update dependency @storybook-vue/nuxt to v0.2.7 ([#544](https://github.com/nuxt-modules/storybook/pull/544))
+- **deps:** Update dependency s8n11c-storybook-vue-nuxt to v0.2.7 ([#544](https://github.com/nuxt-modules/storybook/pull/544))
 - **deps:** Update lock file ([#551](https://github.com/nuxt-modules/storybook/pull/551))
 - **deps:** Update dependency @nuxt/devtools-kit to v1.2.0 ([#546](https://github.com/nuxt-modules/storybook/pull/546))
 - Properly handle the case when import.meta.env is undefined ([#566](https://github.com/nuxt-modules/storybook/pull/566))

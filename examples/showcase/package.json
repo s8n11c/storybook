@@ -21,9 +21,9 @@
   },
   "devDependencies": {
     "@chromatic-com/storybook": "4.1.1",
-    "@nuxtjs/storybook": "latest",
     "@storybook/addon-docs": "9.1.3",
     "@storybook/addon-links": "9.1.3",
+    "s8n11c-nuxtjs-storybook": "workspace:latest",
     "storybook": "9.1.3"
   }
 }

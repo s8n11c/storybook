@@ -1,4 +1,4 @@
-import type { StorybookConfig } from '@nuxtjs/storybook'
+import type { StorybookConfig } from 's8n11c-nuxtjs-storybook'
 
 const config: StorybookConfig = {
   stories: [
@@ -7,7 +7,7 @@ const config: StorybookConfig = {
   ],
   addons: ['@chromatic-com/storybook', '@storybook/addon-docs'],
   framework: {
-    name: '@storybook-vue/nuxt',
+    name: 's8n11c-storybook-vue-nuxt',
     options: {},
   },
 }

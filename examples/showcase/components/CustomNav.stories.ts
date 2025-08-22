@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from '@nuxtjs/storybook'
+import type { Meta, StoryObj } from 's8n11c-nuxtjs-storybook'
 import { useRouter } from 'vue-router'
 
 import CustomNav from './CustomNav.vue'

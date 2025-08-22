@@ -1,7 +1,12 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  modules: ['@nuxtjs/storybook', '@nuxt/image', '@pinia/nuxt', '@nuxtjs/i18n'],
+  modules: [
+    's8n11c-nuxtjs-storybook',
+    '@nuxt/image',
+    '@pinia/nuxt',
+    '@nuxtjs/i18n',
+  ],
 
   pinia: {
     autoImports: ['defineStore', 'acceptHMRUpdate'],

@@ -103,7 +103,7 @@ async function loadNuxtViteConfig(root: string | undefined) {
     extendComposables(nuxt)
     // Override nuxt-link component to use storybook router
     extendComponents(nuxt)
-    // nuxt.options.build.transpile.push('@storybook-vue/nuxt')
+    // nuxt.options.build.transpile.push('s8n11c-storybook-vue-nuxt')
     // Add iframe page
     extendPages((pages) => {
       pages.push({
@@ -177,7 +177,7 @@ function mergeViteConfig(
   extendedConfig.optimizeDeps.include.push(
     // Add lodash/kebabCase, since it is still a cjs module
     // Imported in https://github.com/storybookjs/storybook/blob/480359d5e340d97476131781c69b4b5e3b724f57/code/renderers/vue3/src/docs/sourceDecorator.ts#L18
-    '@nuxtjs/storybook > @storybook-vue/nuxt > @storybook/vue3 > lodash/kebabCase',
+    's8n11c-nuxtjs-storybook > s8n11c-storybook-vue-nuxt > @storybook/vue3 > lodash/kebabCase',
     // Workaround for https://github.com/nuxt-modules/storybook/issues/776
     'storybook > @storybook/core > jsdoc-type-pratt-parser',
   )
