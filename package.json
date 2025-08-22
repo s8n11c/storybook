@@ -1,7 +1,6 @@
 {
-  "name": "nuxt-storybook",
-  "private": true,
-  "version": "",
+  "name": "@s8n11c/nuxt-storybook",
+  "version": "0.0.1",
   "license": "MIT",
   "repository": "nuxt-modules/storybook",
   "author": {
