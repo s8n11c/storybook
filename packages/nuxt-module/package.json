@@ -1,6 +1,6 @@
 {
   "name": "s8n11c-nuxtjs-storybook",
-  "version": "9.0.1",
+  "version": "9.0.2",
   "description": "Storybook module for Nuxt",
   "license": "MIT",
   "homepage": "https://storybook.nuxtjs.org",
@@ -65,6 +65,6 @@
     "vite": "7.0.5"
   },
   "peerDependencies": {
-    "storybook": "9.0.14"
+    "storybook": "9.1.3"
   }
 }
